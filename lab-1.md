@@ -1,27 +1,33 @@
+# Lab 1: Deploy and Scale a Sample App on OpenShift
+
+A hands-on guide to deploying, exposing, and scaling an application using both CLI and GUI methods.
+
+---
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Step 1: Login to OpenShift](#step-1-login-to-openshift)
-  - [GUI Method](#gui-method)
-  - [CLI Method](#cli-method)
-- [Step 2: Create a Project](#step-2-create-a-project)
-  - [GUI Method](#gui-method-1)
-  - [CLI Method](#cli-method-1)
-- [Step 3: Deploy NGINX Image](#step-3-deploy-nginx-image)
-  - [GUI Method](#gui-method-2)
-  - [CLI Method](#cli-method-2)
-- [Step 4: Expose the Application](#step-4-expose-the-application)
-  - [GUI Method](#gui-method-3)
-  - [CLI Method](#cli-method-3)
-- [Step 5: Scale the Application](#step-5-scale-the-application)
-  - [GUI Method](#gui-method-4)
-  - [CLI Method](#cli-method-4)
-  - [Bonus: Auto-scaling](#bonus-auto-scaling)
-- [Step 6: Quality Assurance (QA)](#step-6-quality-assurance-qa)
-  - [GUI Method](#gui-method-5)
-  - [CLI Method](#cli-method-5)
-- [References](#references)
+- [Lab 1: Deploy and Scale a Sample App on OpenShift](#lab-1-deploy-and-scale-a-sample-app-on-openshift)
+  - [Table of Contents](#table-of-contents)
+  - [Step 1: Login to OpenShift](#step-1-login-to-openshift)
+    - [GUI Method](#gui-method)
+    - [CLI Method](#cli-method)
+  - [Step 2: Create a Project](#step-2-create-a-project)
+    - [GUI Method](#gui-method-1)
+    - [CLI Method](#cli-method-1)
+  - [Step 3: Deploy NGINX Image](#step-3-deploy-nginx-image)
+    - [GUI Method](#gui-method-2)
+    - [CLI Method](#cli-method-2)
+  - [Step 4: Expose the Application](#step-4-expose-the-application)
+    - [GUI Method](#gui-method-3)
+    - [CLI Method](#cli-method-3)
+  - [Step 5: Scale the Application](#step-5-scale-the-application)
+    - [GUI Method](#gui-method-4)
+    - [CLI Method](#cli-method-4)
+    - [Bonus: Auto-scaling](#bonus-auto-scaling)
+  - [Step 6: Quality Assurance (QA)](#step-6-quality-assurance-qa)
+    - [GUI Method](#gui-method-5)
+    - [CLI Method](#cli-method-5)
+  - [References](#references)
 
 ---
 
@@ -200,4 +206,3 @@ Verify:
 
 6. Scaling Applications  
    [https://docs.openshift.com/container-platform/latest/applications/deployments/deployment-strategies.html](https://docs.openshift.com/container-platform/latest/applications/deployments/deployment-strategies.html)
-
