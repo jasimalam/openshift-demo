@@ -1,12 +1,12 @@
-# Lab 1: Deploy and Scale a Sample App on OpenShift
+# Lab 1: Deploy and Scale a Sample NGINX App on OpenShift
 
-A hands-on guide to deploying, exposing, and scaling an application using both CLI and GUI methods.
+A hands-on guide to deploying, exposing, and scaling an NGINX application using both CLI and GUI methods.
 
 ---
 
 ## Table of Contents
 
-- [Lab 1: Deploy and Scale a Sample App on OpenShift](#lab-1-deploy-and-scale-a-sample-app-on-openshift)
+- [Lab 1: Deploy and Scale a Sample NGINX App on OpenShift](#lab-1-deploy-and-scale-a-sample-nginx-app-on-openshift)
   - [Table of Contents](#table-of-contents)
   - [Step 1: Login to OpenShift](#step-1-login-to-openshift)
     - [GUI Method](#gui-method)
@@ -24,7 +24,7 @@ A hands-on guide to deploying, exposing, and scaling an application using both C
     - [GUI Method](#gui-method-4)
     - [CLI Method](#cli-method-4)
     - [Bonus: Auto-scaling](#bonus-auto-scaling)
-  - [Step 6: Quality Assurance (QA)](#step-6-quality-assurance-qa)
+  - [Step 6: Verification](#step-6-verification)
     - [GUI Method](#gui-method-5)
     - [CLI Method](#cli-method-5)
   - [References](#references)
@@ -162,8 +162,7 @@ oc autoscale deployment webapp --min=1 --max=5 --cpu-percent=50
 
 ---
 
-## Step 6: Quality Assurance (QA)
-
+## Step 6: Verification
 ### GUI Method
 
 1. Check Pods: Navigate to Workloads → Pods to verify pod status
@@ -206,3 +205,7 @@ Verify:
 
 6. Scaling Applications  
    [https://docs.openshift.com/container-platform/latest/applications/deployments/deployment-strategies.html](https://docs.openshift.com/container-platform/latest/applications/deployments/deployment-strategies.html)
+
+---
+
+Lab Complete! You've successfully deployed, exposed, and scaled an NGINX application on OpenShift.
