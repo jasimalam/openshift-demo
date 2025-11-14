@@ -39,7 +39,7 @@ oc project
 - Switch to **Developer** perspective
 - **+Add** → **Import from Git**
 - Git Repo URL: `https://github.com/jasimalam/fruit-basket-app`
-- Builder Image: **Node.js 14-ubi8**
+- Builder Image: **Python 3.11 (UBI 8)**
 - Application: `myapp-group`
 - Name: `myapp`
 - Resources: **Deployment**
@@ -49,7 +49,7 @@ oc project
 **CLI:**
 
 ```bash
-oc new-app nodejs:14~https://github.com/jasimalam/fruit-basket-app --name=myapp
+oc new-app python:3.11-ubi8~https://github.com/jasimalam/fruit-basket-app --name=myapp
 oc logs -f bc/myapp
 oc expose svc/myapp
 oc get route myapp
